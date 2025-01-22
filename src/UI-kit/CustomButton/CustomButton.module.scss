@@ -1,0 +1,19 @@
+@import '../../services/styles/mixin.scss';
+
+.button{
+  @include clearAll;
+  font-size: $sub_font_size;
+  line-height: $sub_line_height;
+  color: $background_color_second;
+  padding: 4px;
+
+  &:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px gray;
+  }
+
+  &:focus {
+    outline-color: transparent;
+    border: 2px solid $background_color_contrast;
+  }
+}

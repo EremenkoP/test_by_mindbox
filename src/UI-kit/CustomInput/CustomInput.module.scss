@@ -1,0 +1,20 @@
+@import '../../services/styles/variables.scss';
+@import '../../services/styles/mixin.scss';
+
+.input {
+  @include clearAll;
+  font-size: $main_font_size;
+  line-height: $main_line_height;
+
+  &:focus{
+    outline: none;
+  }
+
+  &:active{
+    outline: none;
+  }
+
+  &::placeholder{
+    color: $background_color_second;
+  }
+}
