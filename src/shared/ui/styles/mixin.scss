@@ -1,0 +1,26 @@
+@use './variables.scss';
+
+@mixin clearAll {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  
+  &:focus{ 
+    outline-color: transparent;
+  }
+}
+
+@mixin ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+@mixin flexString {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: center;
+  gap: 0 14px;
+  margin: 8px;
+}

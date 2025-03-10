@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CustomInput > render is checked 1`] = `
+<label
+  className="_label_ae29f1"
+>
+  <input
+    checked={true}
+    className="_input_ae29f1"
+    name="testName"
+    onChange={[Function]}
+    type="radio"
+    value="testValue"
+  />
+  <p
+    className="_psevdoInput_ae29f1"
+  >
+    testName
+  </p>
+</label>
+`;
+
+exports[`CustomInput > render is not checked 1`] = `
+<label
+  className="_label_ae29f1"
+>
+  <input
+    checked={false}
+    className="_input_ae29f1"
+    name="testName"
+    onChange={[Function]}
+    type="radio"
+    value="testValue"
+  />
+  <p
+    className="_psevdoInput_ae29f1"
+  >
+    testName
+  </p>
+</label>
+`;
