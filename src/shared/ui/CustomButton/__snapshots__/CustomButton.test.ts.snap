@@ -1,8 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`customButton > renderDefault 1`] = `
-<button
-  className="_button_a137ae undefined"
-  onClick={[Function]}
-/>
-`;

@@ -1,9 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`CustomInput > render 1`] = `
-<input
-  className="_input_d6385a undefined"
-  type="text"
-  value="test"
-/>
-`;
