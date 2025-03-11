@@ -1,4 +1,4 @@
-import React, { FC, InputHTMLAttributes } from "react";
+import { FC, InputHTMLAttributes } from "react";
 import style from './CustomInput.module.scss';
 
 type TCusttomInput = Omit<InputHTMLAttributes<HTMLInputElement>, 'type'>

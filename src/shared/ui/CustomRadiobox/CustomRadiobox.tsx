@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import style from './CustomRadiobox.module.scss';
 
 interface ICustomRadiBox {

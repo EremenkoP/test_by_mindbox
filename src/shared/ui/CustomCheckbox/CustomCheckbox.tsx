@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import style from "./CustomCheckbox.module.scss";
 import DoneIcon from "@mui/icons-material/Done";
 

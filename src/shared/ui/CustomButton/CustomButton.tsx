@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes, FC } from "react";
+import { ButtonHTMLAttributes, FC } from "react";
 import style from "./CustomButton.module.scss";
 
 type TCustomButton = ButtonHTMLAttributes<HTMLButtonElement>;
